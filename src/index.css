@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ul li a {
+  padding: 0 30px;
+  transition: all 0.3s ease-in-out;
+}
+a:first-child {
+  margin-right: auto;
+}
+a:hover {
+  color: rgb(156, 28, 156);
+}
+.glow {
+  transition: all 0.5s ease 0s;
+}
+.glow:hover {
+  box-shadow: 0 0 20px fuchsia;
+}
+.img_glow {
+  box-shadow: 0 0 55px rgb(161, 41, 149);
+}
+.neno-button {
+  transition: all 0.5s ease 0s;
+}
+.neno-button:hover {
+  box-shadow: 0 0 1cap rgb(206, 71, 193);
+  background-color: rgb(206, 71, 193);
+}
+.b_glow {
+  box-shadow: 0 0 55px rgb(206, 71, 193);
+}
+.glow_ing {
+  transition: 5s;
+}
+.glow_ing:hover {
+  color: rgb(206, 71, 193);
+}
