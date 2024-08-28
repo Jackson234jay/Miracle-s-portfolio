@@ -2,6 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
+.sidebar li {
+  width: 100%;
+}
+.sidebar {
+  width: 100%;
+  transition: 0.5s;
+}
+
+.sidebar li {
+  width: 100%;
+}
+.sidebar a {
+  width: 100%;
+}
+.sidebar a {
+  transition: all 2s ease 0s;
+  width: 100%;
+}
+.menu-btn {
+  display: none;
+  transition: all 2s ease 0s;
+}
+@media (max-width: 880px) {
+  .hideOnMobile {
+    display: none;
+    transition: all 2s ease 0s;
+  }
+  .menu-btn {
+    display: block;
+    transition: all 2s ease 0s;
+  }
+}
+@media (max-width: 400px) {
+  .sidebar {
+    transition: all 2s ease 0s;
+    width: 100%;
+  }
+}
 ul li a {
   padding: 0 30px;
   transition: all 0.3s ease-in-out;

@@ -14,7 +14,7 @@ const Home = () => {
     });
   }, []);
   return (
-    <div className="h-screen bg-purple-300 w-full min-h-screen  min-w-full overflow-x-hidden bg-fixed bg-cover lg:px-56 px-10 lg:py-20 py-10 text-center gap-5 lg:text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center">
+    <div className="h-screen  bg-purple-300 w-full min-h-screen  min-w-full overflow-x-hidden bg-fixed bg-cover lg:px-56 px-10 lg:py-20 py-10 text-center gap-5 lg:text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center">
       <div className="h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white w-full">
         <h1
           data-aos="zoom-in"

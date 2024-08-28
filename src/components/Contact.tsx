@@ -13,7 +13,7 @@ export const Contact = () => {
   return (
     <div
       id="Contact"
-      className="bg-purple-300 p-20 flex items-center flex-col bg-fixed justify-center"
+      className="bg-purple-300 p-20 flex overflow-x-hidden items-center flex-col bg-fixed justify-center"
     >
       <h1
         data-aos="slide-left"

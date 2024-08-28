@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 
 export default function App() {
   return (
-    <div className="h-screen  w-full">
+    <div className="h-screen  w-full bg-cover bg-fixed ">
       <Navbar />
       <Home />
       <About />
