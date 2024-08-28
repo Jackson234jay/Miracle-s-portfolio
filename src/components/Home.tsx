@@ -20,7 +20,7 @@ const Home = () => {
           data-aos="zoom-in"
           className="lg:text-[52px] text-[52px] md:text-[128px] select-none cursor-pointer uppercase flex flex-col justify-center lg:items-start items-center text-white font-semibold leading-normal mb-5"
         >
-          Welcome My <span className="text-fuchsia-700">Portfolio</span>
+          Welcome To My <span className="text-fuchsia-700">Portfolio</span>
         </h1>
         <p
           data-aos="fade-left"
